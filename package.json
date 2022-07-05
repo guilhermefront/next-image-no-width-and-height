@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "lerna": "^5.1.4"
+  },
+  "scripts": {
+    "dev": "lerna run dev --scope=test-app",
+    "test": "cd ./packages/image/ && yarn test",
+    "build": "lerna run build --scope=next-image-no-width-and-height"
+  }
+}
