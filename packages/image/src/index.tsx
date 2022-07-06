@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NextImage, { ImageProps } from 'next/Image';
+import NextImage, { ImageProps } from 'next/image';
 
 const ImageWithNoDimensions = (
   props: Omit<ImageProps, 'width' | 'height'> & {
